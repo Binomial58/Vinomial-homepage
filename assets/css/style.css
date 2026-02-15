@@ -20,3 +20,30 @@ nav a {
 main {
   padding: 40px;
 }
+
+.home-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.home-icon {
+  width: min(320px, 45vw);
+  height: auto;
+  border-radius: 10px;
+}
+
+.home-text h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .home-icon {
+    width: min(260px, 80vw);
+  }
+}
