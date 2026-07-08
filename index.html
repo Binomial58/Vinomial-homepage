@@ -3,48 +3,139 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Binomial - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinomial | Home</title>
+  <meta name="description" content="Vinomial の個人ホームページ。プロフィール、活動分野、アカウントへのリンクをまとめています。">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-  <header>
-    <h1>Binomialのホームページ</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-    </nav>
-  </header>
+<body data-page="home">
+  <div class="page-shell">
+    <header class="site-header">
+      <a href="index.html" class="brand-mark">Vinomial</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="blog.html" data-nav="blog">Blog</a>
+      </nav>
+    </header>
 
-  <main>
-    <section class="profile-section">
-      <h2>自己紹介</h2>
-      <div class="home-hero">
-        <img src="images/icon.png" alt="プロフィールアイコン" class="home-icon">
-        <div class="home-text">
-          <p>ここに自己紹介を書いていきます。プロフィール、興味分野、活動内容などを追加していく予定です。</p>
+    <main>
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal Homepage</p>
+          <h1>hogehoge fugafuga piyopiyo</h1>
+          <p class="hero-lead">
+            hogehoge hogehoge fugafuga fugafuga.
+            piyopiyo mogemoge foobar bazqux.
+          </p>
+          <div class="hero-actions">
+            <a href="#accounts" class="button-primary">アカウントを見る</a>
+            <a href="blog.html" class="button-secondary">ブログへ</a>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="contact-section">
-      <h2>アカウント</h2>
-      <div class="account-links">
-        <a href="https://x.com/Majmahc_0718" target="_blank" rel="noopener noreferrer" class="account-link">
-          <img src="images/X.png" alt="Xアカウント" class="account-icon">
-        </a>
-        <a href="https://github.com/Binomial58" target="_blank" rel="noopener noreferrer" class="account-link">
-          <img src="images/Github.png" alt="GitHubアカウント" class="account-icon">
-        </a>
-        <a href="https://atcoder.jp/users/Binomial" target="_blank" rel="noopener noreferrer"
-          class="account-link account-text-link">AtCoder</a>
-      </div>
-    </section>
-  </main>
+        <div class="hero-visual">
+          <div class="icon-frame">
+            <img src="images/icon.png" alt="Vinomial のアイコン" class="home-icon">
+          </div>
+          <dl class="hero-stats">
+            <div>
+              <dt>Focus</dt>
+              <dd>hogehoge / fugafuga / piyopiyo</dd>
+            </div>
+            <div>
+              <dt>Status</dt>
+              <dd>hogehoge status</dd>
+            </div>
+            <div>
+              <dt>Base</dt>
+              <dd>hogehoge base</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
 
-  <footer>
-    <p class="copyright">© 2026 Binomial</p>
-    <p class="site-credit">このホームページのCSSは GPT-5.3-Codex を用いて作成されました。</p>
-  </footer>
+      <section class="content-grid">
+        <article class="card profile-card">
+          <p class="section-kicker">Profile</p>
+          <h2>自己紹介</h2>
+          <p>
+            hogehoge hogehoge fugafuga.
+            piyopiyo mogemoge foobar bazqux.
+          </p>
+        </article>
+
+        <article class="card">
+          <p class="section-kicker">Interests</p>
+          <h2>興味分野</h2>
+          <ul class="tag-list">
+            <li>hogehoge</li>
+            <li>fugafuga</li>
+            <li>piyopiyo</li>
+            <li>mogemoge</li>
+            <li>foobar</li>
+            <li>bazqux</li>
+          </ul>
+        </article>
+
+        <article class="card wide-card">
+          <p class="section-kicker">Current Direction</p>
+          <h2>このサイトでやりたいこと</h2>
+          <div class="roadmap">
+            <div class="roadmap-item">
+              <span class="roadmap-index">01</span>
+              <div>
+                <h3>hogehoge title</h3>
+                <p>hogehoge fugafuga piyopiyo.</p>
+              </div>
+            </div>
+            <div class="roadmap-item">
+              <span class="roadmap-index">02</span>
+              <div>
+                <h3>fugafuga title</h3>
+                <p>fugafuga piyopiyo mogemoge.</p>
+              </div>
+            </div>
+            <div class="roadmap-item">
+              <span class="roadmap-index">03</span>
+              <div>
+                <h3>piyopiyo title</h3>
+                <p>piyopiyo mogemoge foobar.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="card account-card" id="accounts">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Accounts</p>
+            <h2>アカウント</h2>
+          </div>
+          <p class="section-note">hogehoge fugafuga links.</p>
+        </div>
+        <div class="account-links">
+          <a href="https://x.com/Majmahc_0718" target="_blank" rel="noopener noreferrer" class="account-link">
+            <img src="images/X.png" alt="" class="account-icon">
+            <span>X</span>
+          </a>
+          <a href="https://github.com/Binomial58" target="_blank" rel="noopener noreferrer" class="account-link">
+            <img src="images/Github.png" alt="" class="account-icon">
+            <span>GitHub</span>
+          </a>
+          <a href="https://atcoder.jp/users/Binomial" target="_blank" rel="noopener noreferrer" class="account-link">
+            <span class="text-badge">At</span>
+            <span>AtCoder</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="copyright">© <span data-year></span> Vinomial</p>
+      <p class="site-credit">Static site hosted on Vercel.</p>
+    </footer>
+  </div>
 
   <script src="assets/js/main.js"></script>
 </body>
