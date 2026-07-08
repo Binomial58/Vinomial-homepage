@@ -1,4 +1,4 @@
-# Binomial58.github.io
+# Vinomial-homepage
 
 Static homepage for Binomial.
 
@@ -12,7 +12,7 @@ Recommended Vercel project name:
 
 Recommended deploy flow:
 
-1. Import `Binomial58/Binomial58.github.io` into Vercel from GitHub.
+1. Import `Binomial58/Vinomial-homepage` into Vercel from GitHub.
 2. Set the project name to `vinomial-homepage` during import, or rename it later from the Vercel project settings.
 3. Keep the framework preset as `Other` or let Vercel auto-detect the static site.
 4. Leave the build command empty.
